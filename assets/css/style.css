@@ -23,8 +23,6 @@
 /*a:hover{color: #dd127b !important;
 transform: scale(1.03);
 transition: all 0.2s;}*/
-
-
 :root{
     --darkpink:#dd127b;
     
@@ -52,6 +50,7 @@ a{
 .tophead-text a:hover{
     color: #0093dd !important;
 }
+.btn:hover{background: #000000;}
 
     
 /* Tophead Section End */
@@ -135,7 +134,7 @@ a{
  }
 /* Call Section End */
 
-/* Footer Section Stat */
+/* Footer Section Start */
 .footer .para{
     padding-left: 85px;
     padding-right: 10px;
@@ -144,26 +143,70 @@ a{
 .footer .para p{
     font-size: 16px;
     font-weight:600;
-}
+}I
 
 .footer h2{
     font-size: 20px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
+.footer .social ul li {
+    border-radius: 30%;
+    width: 100%;
+ line-height: 1.2;
+
+}
 .footer ul li a{
     color: #fff;
 
 }
-.footer ul li a:hover{
+.footer  ul li a:hover{
     color: #dd127b;
 }
 .footer p{
     font-size: 16px;
-    padding-top: 20px;
+    padding-top: 2px;
     padding-right: 95px;
 }
 .footer .form{
     padding-right: 95px;
 }
 /* Footer Section End */
+/* Media quary Start */
+/*@media screen and (max-width:324px){
+   .footer h2{
+        align-items: center;
+    }
+    
+}*/
+/* Media quary End */
+/* About Banner Section Start */
+.about-banner{
+    
+    width: 100%;
+   /* height: 340px;*/
+    background: url(../img/slider1.png);
+    background-size: cover;
+    background-position: 100% 100%;
+    padding: 150px 0px;   
+}
+.breadcrumb-item a:hover{
+    color: #dd127b;
+}
+
+/* About Banner Section End */
+
+/* Mian Section Start */
+P {
+    font-family: "roboto", sans-serif;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: 0.4px;
+}
+/* Main Section End */
+/* Search Registration Section Start */
+button .btn:hover{
+    color: #000;
+}
+
+/* Search Registration Section End */
