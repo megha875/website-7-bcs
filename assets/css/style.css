@@ -210,3 +210,77 @@ button .btn:hover{
 }
 
 /* Search Registration Section End */
+/* Gallery Section Start */
+.ablum{
+    background-color: #0093dd;
+}
+.container .image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+
+}
+.image-container .imagee{
+    height: 250px;
+    width: 350px;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 15px rgb(0,0,0,.1);
+    overflow: hidden;
+}
+.image-container.imagee img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+.image-container .imagee:hover img{
+    transform: scale(1.1);
+}
+.popop-imagee{
+    position:fixed;
+    top:0; left:0px;
+    background-color: rgb(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    cursor: pointer;
+}
+.popup-imagee{
+    position: absolute;
+    top:10%; right: 0px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    z-index: 100;
+    display: none;
+    cursor: pointer;
+}
+.popup-imagee span{
+    position: absolute;
+    top: 7%; right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    z-index: 100;
+}
+.popup-imagee img{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    width: 750px;
+    object-fit: cover;
+}
+@media (max-width:768px){
+    .popup-image img{
+        width: 88%;        
+    }
+    .popup-image span{
+        font-size: 40px;
+        top: 11%; right: 10px;
+    }
+}
+
+/* Gallery Term Section End */
